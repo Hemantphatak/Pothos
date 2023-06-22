@@ -1,0 +1,87 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+    .contact {
+        padding: 80px 0;
+        background-color: #d3f7c9;
+        text-align: center;
+    }
+
+    .contact .heading {
+        color: #333;
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+
+    .contact .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .contact .map {
+        width: 900px;
+        height: 600px;
+        border: none;
+    }
+
+    .contact form {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .contact .inputBox {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .contact .inputBox input,
+    .contact .inputBox textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-bottom: 1px solid #999;
+        outline: none;
+    }
+
+    .contact .inputBox label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 16px;
+        padding: 10px;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+
+    .contact .inputBox input:focus ~ label,
+    .contact .inputBox input:valid ~ label,
+    .contact .inputBox textarea:focus ~ label,
+    .contact .inputBox textarea:valid ~ label {
+        top: -20px;
+        left: 0;
+        color: #333;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .contact .btn {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top: 20px;
+        transition: 0.3s;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .contact .btn:hover {
+        background-color: #555;
+    }
+
